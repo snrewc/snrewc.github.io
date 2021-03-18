@@ -71,12 +71,8 @@ function printObjectKeys(object) {
  */
 function getObjectValues(object) {
   // YOUR CODE BELOW HERE //
-//declare variable and set to rules
-var valesArray = Objectivevales(object)
-for (var i = valeArray.length -1; i >=0; i--) {
-  console.log(valeArray[i]);
-}
-
+//declare r
+ return Object.values(object);
   
   
   // YOUR CODE ABOVE HERE //
@@ -89,7 +85,9 @@ for (var i = valeArray.length -1; i >=0; i--) {
 function printObjectValues(object) {
   // YOUR CODE BELOW HERE //
   
-  
+  for (let key in object) {
+    console.log(object[key]);
+  }
   
   
   // YOUR CODE ABOVE HERE //

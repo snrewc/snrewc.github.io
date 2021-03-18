@@ -14,9 +14,7 @@
  */
 function length(string) {
     // YOUR CODE BELOW HERE //
-    
-return string.length;
-
+ return string.length
     // YOUR CODE ABOVE HERE //
 }
 
@@ -26,7 +24,7 @@ return string.length;
 function toLowerCase(string) {
     // YOUR CODE BELOW HERE //
 
-return string.toLowerCase();
+return string.toLowerCase("Samir");
 
     // YOUR CODE ABOVE HERE //
 }
@@ -37,7 +35,7 @@ return string.toLowerCase();
 function toUpperCase(string) {
     // YOUR CODE BELOW HERE //
 
-return string.toUpperCase();
+return string.toUpperCase("him");
 
     // YOUR CODE ABOVE HERE //
 }
